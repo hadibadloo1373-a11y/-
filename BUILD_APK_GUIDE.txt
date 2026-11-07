@@ -1,0 +1,17 @@
+مدرسه جادویی من 🌈 — راهنمای ساخت APK
+
+این پوشه شامل سورس Flutter برنامه است.
+
+برای ساخت APK واقعی روی یک کامپیوتر دارای Flutter و Android SDK:
+1) Flutter SDK را نصب کنید.
+2) در پوشه پروژه دستور زیر را اجرا کنید:
+   flutter pub get
+3) اگر پوشه android وجود ندارد:
+   flutter create .
+4) سپس:
+   flutter build apk --release
+
+فایل خروجی معمولاً اینجا ساخته می‌شود:
+build/app/outputs/flutter-apk/app-release.apk
+
+نکته: این فایل راهنما APK نیست؛ برای ساخت APK باید پروژه واقعاً با Flutter/Android SDK کامپایل شود.
